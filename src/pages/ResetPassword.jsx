@@ -16,15 +16,15 @@ const ResetPassword = () => {
         <form className="m-2 text-center">
         <input
             type="email"
-            className="border-solid border-2 m-2 border-gray-600 rounded-md p-2 mb-4"
-            placeholder="Email"
+            className="border-solid border-2 m-2 focus:underline border-gray-600 rounded-md p-2 mb-4"
+            placeholder="email"
             required
           />
           <br/>
           <input
             type="text"
-            className="border-solid border-2 m-2 border-gray-600 rounded-md p-2 mb-4"
-            placeholder="First Name"
+            className="border-solid border-2 m-2 focus:underline border-gray-600 rounded-md p-2 mb-4"
+            placeholder="firstname"
             required
           />
           <br/>

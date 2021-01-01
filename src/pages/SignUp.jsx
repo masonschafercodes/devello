@@ -16,28 +16,28 @@ const SignUp = () => {
         <form className="m-2 text-center">
         <input
             type="text"
-            className="border-solid border-2 m-2 border-gray-600 rounded-md p-2 mb-4"
+            className="border-solid border-2 focus:underline m-2 border-gray-600 rounded-md p-2 mb-4"
             placeholder="firstname"
             required
           />
           <br/>
           <input
             type="text"
-            className="border-solid border-2 m-2 border-gray-600 rounded-md p-2 mb-4"
+            className="border-solid border-2 m-2 focus:underline border-gray-600 rounded-md p-2 mb-4"
             placeholder="lastname"
             required
           />
           <br/>
           <input
             type="email"
-            className="border-solid border-2 m-2 border-gray-600 rounded-md p-2 mb-4"
+            className="border-solid border-2 m-2 focus:underline border-gray-600 rounded-md p-2 mb-4"
             placeholder="email"
             required
           />
           <br />
           <input
             type="password"
-            className="border-solid border-2 border-gray-600 rounded-md p-2 mb-4"
+            className="border-solid border-2 focus:underline border-gray-600 rounded-md p-2 mb-4"
             placeholder="password"
             required
           />
@@ -47,7 +47,7 @@ const SignUp = () => {
           </button>
         </form>
         <a href="/login">
-          <p className="text-sm text-gray-500 hover:text-blue-600 pt-2">
+          <p className="text-sm text-gray-500 hover:underline hover:text-blue-600 pt-2">
             Already Have an Account? Login!
           </p>
         </a>

@@ -16,14 +16,14 @@ const Login = () => {
         <form className="m-2 text-center">
           <input
             type="email"
-            className="border-solid border-2 m-2 border-gray-600 rounded-md p-2 mb-4"
+            className="border-solid focus:underline border-2 m-2 border-gray-600 rounded-md p-2 mb-4"
             placeholder="email"
             required
           />
           <br />
           <input
             type="password"
-            className="border-solid border-2 border-gray-600 rounded-md p-2 mb-4"
+            className="border-solid focus:underline border-2 border-gray-600 rounded-md p-2 mb-4"
             placeholder="password"
             required
           />
@@ -33,12 +33,12 @@ const Login = () => {
           </button>
         </form>
         <a href="/resetpassword">
-          <p className="text-sm text-gray-500 hover:text-blue-600 pt-2">
+          <p className="text-sm text-gray-500 hover:underline hover:text-blue-600 pt-2">
             Forget password?
           </p>
         </a>
         <a href="/signup">
-          <p className="text-sm text-gray-500 hover:text-blue-600 pt-2">
+          <p className="text-sm text-gray-500 hover:underline hover:text-blue-600 pt-2">
             Sign Up!
           </p>
         </a>
